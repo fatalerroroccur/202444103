@@ -3,7 +3,8 @@ int main(){
     int a = 8;
     int *pa = NULL;
     pa = &a;
-    float b=3.75;
+    float b=0;
+    b=2.32;
     float *pb = &b;
     printf("%u\n",a);
     printf("%u\n",&a);
@@ -12,7 +13,7 @@ int main(){
     printf("%u\n",&b);
     printf("%u\n\n",pb);
     printf("%u\n",NULL);
-    *p = 50;
-    printf("%u\n",p);
+    *pa = 50;
+    printf("%u\n",pa);
     printf("%u\n",a);
 }
